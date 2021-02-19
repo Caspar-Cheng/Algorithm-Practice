@@ -12,19 +12,22 @@ Solution in JS:
 
 function sumTwoNum(array, targetNum){
 
-  for(let i=0; i<array.length-1; i++){  
+  for(let i=0; i<array.length-1; i++){ 
+  
     const firstNum = array[i];   
-    for(let j=i+1; j<array.length; j++){    
+    
+    for(let j=i+1; j<array.length; j++){  
+    
       const secondNum = array[j];      
-      if(firstNum + secondNum === targetNum){     
+      
+      if(firstNum + secondNum === targetNum){  
+      
         return [firstNum, secondNum];
         
       }
     }
-  }
-  
-  return [];
-  
+  } 
+  return []; 
 }
 
 exports.sumTwoNum = sumTwoNum;
