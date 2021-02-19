@@ -27,7 +27,7 @@ function sumTwoNum(array, targetNum){
       }
     }
   } 
-  return []; 
+  return [ ]; 
 }
 
 exports.sumTwoNum = sumTwoNum;
