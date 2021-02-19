@@ -9,16 +9,22 @@ targetNum = 10
 example output: [-1, 11]
 
 Solution in JS: 
+
 function sumTwoNum(array, targetNum){
-  for(let i=0; i<array.length-1; i++){
-    const firstNum = array[i];
-    for(let j=i+1; j<array.length; j++){
-      const secondNum = array[j];
-      if(firstNum + secondNum === targetNum){
+
+  for(let i=0; i<array.length-1; i++){  
+    const firstNum = array[i];   
+    for(let j=i+1; j<array.length; j++){    
+      const secondNum = array[j];      
+      if(firstNum + secondNum === targetNum){     
         return [firstNum, secondNum];
+        
       }
     }
   }
+  
   return [];
+  
 }
+
 exports.sumTwoNum = sumTwoNum;
