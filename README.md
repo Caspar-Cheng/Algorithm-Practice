@@ -31,3 +31,20 @@ function sumTwoNum(array, targetNum){
 }
 
 exports.sumTwoNum = sumTwoNum;
+
+
+
+
+
+2. Algorithm question two: validate subsequence. Given two non-empty int arrays, write a function to check whether the second array is the subsquence of the first array. If the second array belongs to the first array, return true, the order doesn't need to be as same as the first one. 
+Sample input: 
+array = [5, 1, 22, 25, 6, -1, 8, 10]
+sequence = [1, 6, -1, 10]
+Output: true
+
+function isSubsequence(array, sequence){
+
+
+}
+
+exports.isSubsequence = isSubsequence
