@@ -44,7 +44,22 @@ Output: true
 
 function isSubsequence(array, sequence){
 
-
+    let arrIndex = 0;
+    
+    let seqIndex = 0;
+    
+    while(arrIndex < array.length && seqIndex < sequence.length){
+    
+        if(array[arrIndex] === sequence[seqIndex]){
+            
+            seqIndex++;
+            arrIndex++;
+        }
+    
+    return seqIndex === sequence.length
+    
+    }
+    
 }
 
 exports.isSubsequence = isSubsequence
